@@ -38,6 +38,8 @@ def create_store():
 # GET /store/<string:name>
 
 
+#um comentario de exemplo
+
 @app.route("/store/<string:name>", methods=["GET"])
 def get_store(name):
     for store in stores:
